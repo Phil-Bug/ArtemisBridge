@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DMX_DEVICES>
+	<profile name="default">
+		<inputDevice id="first light box" channelCount="3" firstChannel="1">
+			<outputDevice type="dmx-3ch" param="1"></outputDevice>
+		</inputDevice>
+	</profile>
+	<profile name="my-virtual">
+		<inputDevice id="L1" channelCount="3" firstChannel="1">
+			<outputDevice type="emul-dmx-3ch" param="1"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L2" channelCount="3" firstChannel="4">
+			<outputDevice type="emul-dmx-3ch" param="4"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L3" channelCount="1" firstChannel="7">
+			<outputDevice type="audio-1ch" param="Default DirectSound Device"></outputDevice>
+		</inputDevice>
+	</profile>
+	<profile name="my (1)">
+		<inputDevice id="L1" channelCount="3" firstChannel="1">
+			<outputDevice type="dmx-3ch" param="1"></outputDevice>
+		</inputDevice>
+		<inputDevice id="L2" channelCount="3" firstChannel="4">
+			<outputDevice type="dmx-3ch" param="4"></outputDevice>
+		</inputDevice>
+		<inputDevice id="Audio" channelCount="1" firstChannel="7">
+			<outputDevice type="audio-1ch" param="Default DirectSound Device"></outputDevice>
+		</inputDevice>
+	</profile>
+	<sound value="1" src="fighter-zap.wav"></sound>
+	<sound value="2" src="Radio Interruption.wav"></sound>
+	<sound value="3" src="reverse mode.mp3"></sound>
+</DMX_DEVICES>

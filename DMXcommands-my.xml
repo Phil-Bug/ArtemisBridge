@@ -1,0 +1,2135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DMX_CONTROL version="2.00" deviceProfile="my (1)">
+	<!-- ********************************************************************************************* -->
+	<event type="NORMAL_CONDITION_1" continuous="yes">
+		<!-- steady soft white light -->
+		<timeblock mseconds="1000">
+			<setvalue index="0" value="100" change="0"></setvalue>
+			<!-- red value of L1 -->
+			<setvalue index="1" value="100" change="0"></setvalue>
+			<!-- green value of L1 -->
+			<setvalue index="2" value="100" change="0"></setvalue>
+			<!-- blue value of L1 -->
+			<setvalue index="3" value="0" change="0"></setvalue>
+			<!-- red value of L2 -->
+			<setvalue index="4" value="0" change="0"></setvalue>
+			<!-- green value of L2 -->
+			<setvalue index="5" value="0" change="0"></setvalue>
+			<!-- blue value of L2 -->
+		</timeblock>
+	</event>
+	<!-- ********************************************************************************************* -->
+	<event type="ENERGY_100" continuous="yes">
+		<!-- steady soft white light -->
+		<timeblock mseconds="1000">
+			<setvalue index="0" value="100" change="0"></setvalue>
+			<!-- red value of L1 -->
+			<setvalue index="1" value="100" change="0"></setvalue>
+			<!-- green value of L1 -->
+			<setvalue index="2" value="100" change="0"></setvalue>
+			<!-- blue value of L1 -->
+			<setvalue index="3" value="0" change="0"></setvalue>
+			<!-- red value of L2 -->
+			<setvalue index="4" value="50" change="0"></setvalue>
+			<!-- green value of L2 -->
+			<setvalue index="5" value="0" change="0"></setvalue>
+			<!-- blue value of L2 -->
+		</timeblock>
+	</event>
+	<!-- ********************************************************************************************* -->
+	<event type="ENERGY_80" continuous="yes">
+		<!-- steady soft white light -->
+		<timeblock mseconds="1000">
+			<setvalue index="0" value="100" change="0"></setvalue>
+			<!-- red value of L1 -->
+			<setvalue index="1" value="100" change="0"></setvalue>
+			<!-- green value of L1 -->
+			<setvalue index="2" value="100" change="0"></setvalue>
+			<!-- blue value of L1 -->
+			<setvalue index="3" value="0" change="0"></setvalue>
+			<!-- red value of L2 -->
+			<setvalue index="4" value="10" change="0"></setvalue>
+			<!-- green value of L2 -->
+			<setvalue index="5" value="0" change="0"></setvalue>
+			<!-- blue value of L2 -->
+		</timeblock>
+	</event>
+	<!-- ********************************************************************************************* -->
+	<event type="ENERGY_60" continuous="yes">
+		<!-- flicker the light of the 2nd light box -->
+		<timeblock mseconds="1000">
+			<setvalue index="0" value="50" change="0"></setvalue>
+			<!-- red value of L1 -->
+			<setvalue index="1" value="50" change="0"></setvalue>
+			<!-- green value of L1 -->
+			<setvalue index="2" value="50" change="0"></setvalue>
+			<!-- blue value of L1 -->
+			<setvalue index="3" value="50" change="0"></setvalue>
+			<!-- red value of L2 -->
+			<setvalue index="4" value="0" change="0"></setvalue>
+			<!-- green value of L2 -->
+			<setvalue index="5" value="0" change="0"></setvalue>
+			<!-- blue value of L2 -->
+		</timeblock>
+	</event>
+	<!-- ********************************************************************************************* -->
+	<event type="ENERGY_60">
+		<!-- flicker the light of the first light box -->
+		<timeblock mseconds="1000">
+			<setvalue index="0" value="255" change="0"></setvalue>
+			<!-- red value of L1 -->
+			<setvalue index="1" value="0" change="0"></setvalue>
+			<!-- green value of L1 -->
+			<setvalue index="2" value="0" change="0"></setvalue>
+			<!-- blue value of L1 -->
+			<setvalue index="3" value="0" change="0"></setvalue>
+			<!-- red value of L2 -->
+			<setvalue index="4" value="255" change="0"></setvalue>
+			<!-- green value of L2 -->
+			<setvalue index="5" value="0" change="0"></setvalue>
+			<!-- blue value of L2 -->
+		</timeblock>
+		<timeblock mseconds="1000">
+			<setvalue index="0" value="0" change="0"></setvalue>
+			<!-- red value of L1 -->
+			<setvalue index="1" value="255" change="0"></setvalue>
+			<!-- green value of L1 -->
+			<setvalue index="2" value="0" change="0"></setvalue>
+			<!-- blue value of L1 -->
+			<setvalue index="3" value="255" change="0"></setvalue>
+			<!-- red value of L2 -->
+			<setvalue index="4" value="0" change="0"></setvalue>
+			<!-- green value of L2 -->
+			<setvalue index="5" value="0" change="0"></setvalue>
+			<!-- blue value of L2 -->
+		</timeblock>
+		<timeblock mseconds="1000">
+			<setvalue index="0" value="255" change="0"></setvalue>
+			<!-- red value of L1 -->
+			<setvalue index="1" value="0" change="0"></setvalue>
+			<!-- green value of L1 -->
+			<setvalue index="2" value="0" change="0"></setvalue>
+			<!-- blue value of L1 -->
+			<setvalue index="3" value="0" change="0"></setvalue>
+			<!-- red value of L2 -->
+			<setvalue index="4" value="255" change="0"></setvalue>
+			<!-- green value of L2 -->
+			<setvalue index="5" value="0" change="0"></setvalue>
+			<!-- blue value of L2 -->
+		</timeblock>
+		<timeblock mseconds="1000">
+			<setvalue index="0" value="0" change="0"></setvalue>
+			<!-- red value of L1 -->
+			<setvalue index="1" value="255" change="0"></setvalue>
+			<!-- green value of L1 -->
+			<setvalue index="2" value="0" change="0"></setvalue>
+			<!-- blue value of L1 -->
+			<setvalue index="3" value="255" change="0"></setvalue>
+			<!-- red value of L2 -->
+			<setvalue index="4" value="0" change="0"></setvalue>
+			<!-- green value of L2 -->
+			<setvalue index="5" value="0" change="0"></setvalue>
+			<!-- blue value of L2 -->
+		</timeblock>
+	</event>
+	<!-- ********************************************************************************************* -->
+	<event type="ENERGY_40" continuous="yes">
+		<!-- flicker the light of the 2nd light box -->
+		<timeblock mseconds="1000">
+			<setvalue index="0" value="50" change="0"></setvalue>
+			<!-- red value of L1 -->
+			<setvalue index="1" value="50" change="0"></setvalue>
+			<!-- green value of L1 -->
+			<setvalue index="2" value="50" change="0"></setvalue>
+			<!-- blue value of L1 -->
+			<setvalue index="3" value="0" change="100"></setvalue>
+			<!-- red value of L2 -->
+			<setvalue index="4" value="0" change="0"></setvalue>
+			<!-- green value of L2 -->
+			<setvalue index="5" value="0" change="0"></setvalue>
+			<!-- blue value of L2 -->
+		</timeblock>
+		<timeblock mseconds="1000">
+			<setvalue index="0" value="10" change="0"></setvalue>
+			<!-- red value of L1 -->
+			<setvalue index="1" value="10" change="0"></setvalue>
+			<!-- green value of L1 -->
+			<setvalue index="2" value="10" change="0"></setvalue>
+			<!-- blue value of L1 -->
+			<setvalue index="3" value="100" change="-100"></setvalue>
+			<!-- red value of L2 -->
+			<setvalue index="4" value="0" change="0"></setvalue>
+			<!-- green value of L2 -->
+			<setvalue index="5" value="0" change="0"></setvalue>
+			<!-- blue value of L2 -->
+		</timeblock>
+	</event>
+	<!-- ********************************************************************************************* -->
+	<event type="ENERGY_40">
+		<!-- flicker the light of the first light box -->
+		<timeblock mseconds="1000">
+			<setvalue index="0" value="255" change="0"></setvalue>
+			<!-- red value of L1 -->
+			<setvalue index="1" value="0" change="0"></setvalue>
+			<!-- green value of L1 -->
+			<setvalue index="2" value="0" change="0"></setvalue>
+			<!-- blue value of L1 -->
+			<setvalue index="3" value="0" change="0"></setvalue>
+			<!-- red value of L2 -->
+			<setvalue index="4" value="255" change="0"></setvalue>
+			<!-- green value of L2 -->
+			<setvalue index="5" value="0" change="0"></setvalue>
+			<!-- blue value of L2 -->
+		</timeblock>
+		<timeblock mseconds="1000">
+			<setvalue index="0" value="0" change="0"></setvalue>
+			<!-- red value of L1 -->
+			<setvalue index="1" value="255" change="0"></setvalue>
+			<!-- green value of L1 -->
+			<setvalue index="2" value="0" change="0"></setvalue>
+			<!-- blue value of L1 -->
+			<setvalue index="3" value="255" change="0"></setvalue>
+			<!-- red value of L2 -->
+			<setvalue index="4" value="0" change="0"></setvalue>
+			<!-- green value of L2 -->
+			<setvalue index="5" value="0" change="0"></setvalue>
+			<!-- blue value of L2 -->
+		</timeblock>
+		<timeblock mseconds="1000">
+			<setvalue index="0" value="255" change="0"></setvalue>
+			<!-- red value of L1 -->
+			<setvalue index="1" value="0" change="0"></setvalue>
+			<!-- green value of L1 -->
+			<setvalue index="2" value="0" change="0"></setvalue>
+			<!-- blue value of L1 -->
+			<setvalue index="3" value="0" change="0"></setvalue>
+			<!-- red value of L2 -->
+			<setvalue index="4" value="255" change="0"></setvalue>
+			<!-- green value of L2 -->
+			<setvalue index="5" value="0" change="0"></setvalue>
+			<!-- blue value of L2 -->
+		</timeblock>
+		<timeblock mseconds="1000">
+			<setvalue index="0" value="0" change="0"></setvalue>
+			<!-- red value of L1 -->
+			<setvalue index="1" value="255" change="0"></setvalue>
+			<!-- green value of L1 -->
+			<setvalue index="2" value="0" change="0"></setvalue>
+			<!-- blue value of L1 -->
+			<setvalue index="3" value="255" change="0"></setvalue>
+			<!-- red value of L2 -->
+			<setvalue index="4" value="0" change="0"></setvalue>
+			<!-- green value of L2 -->
+			<setvalue index="5" value="0" change="0"></setvalue>
+			<!-- blue value of L2 -->
+		</timeblock>
+	</event>
+	<!-- ********************************************************************************************* -->
+	<event type="ENERGY_20" continuous="yes">
+		<!-- flicker the light of the 2nd light box -->
+		<timeblock mseconds="1000">
+			<setvalue index="0" value="1" change="0"></setvalue>
+			<!-- red value of L1 -->
+			<setvalue index="1" value="1" change="0"></setvalue>
+			<!-- green value of L1 -->
+			<setvalue index="2" value="1" change="0"></setvalue>
+			<!-- blue value of L1 -->
+			<setvalue index="3" value="0" change="200"></setvalue>
+			<!-- red value of L2 -->
+			<setvalue index="4" value="0" change="0"></setvalue>
+			<!-- green value of L2 -->
+			<setvalue index="5" value="0" change="0"></setvalue>
+			<!-- blue value of L2 -->
+		</timeblock>
+		<timeblock mseconds="1000">
+			<setvalue index="0" value="20" change="0"></setvalue>
+			<!-- red value of L1 -->
+			<setvalue index="1" value="20" change="0"></setvalue>
+			<!-- green value of L1 -->
+			<setvalue index="2" value="20" change="0"></setvalue>
+			<!-- blue value of L1 -->
+			<setvalue index="3" value="200" change="-200"></setvalue>
+			<!-- red value of L2 -->
+			<setvalue index="4" value="0" change="0"></setvalue>
+			<!-- green value of L2 -->
+			<setvalue index="5" value="0" change="0"></setvalue>
+			<!-- blue value of L2 -->
+		</timeblock>
+	</event>
+	<!-- ********************************************************************************************* -->
+	<event type="ENERGY_20">
+		<!-- flicker the light of the first light box -->
+		<timeblock mseconds="1000">
+			<setvalue index="0" value="255" change="0"></setvalue>
+			<!-- red value of L1 -->
+			<setvalue index="1" value="0" change="0"></setvalue>
+			<!-- green value of L1 -->
+			<setvalue index="2" value="0" change="0"></setvalue>
+			<!-- blue value of L1 -->
+			<setvalue index="3" value="0" change="0"></setvalue>
+			<!-- red value of L2 -->
+			<setvalue index="4" value="255" change="0"></setvalue>
+			<!-- green value of L2 -->
+			<setvalue index="5" value="0" change="0"></setvalue>
+			<!-- blue value of L2 -->
+		</timeblock>
+		<timeblock mseconds="1000">
+			<setvalue index="0" value="0" change="0"></setvalue>
+			<!-- red value of L1 -->
+			<setvalue index="1" value="255" change="0"></setvalue>
+			<!-- green value of L1 -->
+			<setvalue index="2" value="0" change="0"></setvalue>
+			<!-- blue value of L1 -->
+			<setvalue index="3" value="255" change="0"></setvalue>
+			<!-- red value of L2 -->
+			<setvalue index="4" value="0" change="0"></setvalue>
+			<!-- green value of L2 -->
+			<setvalue index="5" value="0" change="0"></setvalue>
+			<!-- blue value of L2 -->
+		</timeblock>
+		<timeblock mseconds="1000">
+			<setvalue index="0" value="255" change="0"></setvalue>
+			<!-- red value of L1 -->
+			<setvalue index="1" value="0" change="0"></setvalue>
+			<!-- green value of L1 -->
+			<setvalue index="2" value="0" change="0"></setvalue>
+			<!-- blue value of L1 -->
+			<setvalue index="3" value="0" change="0"></setvalue>
+			<!-- red value of L2 -->
+			<setvalue index="4" value="255" change="0"></setvalue>
+			<!-- green value of L2 -->
+			<setvalue index="5" value="0" change="0"></setvalue>
+			<!-- blue value of L2 -->
+		</timeblock>
+		<timeblock mseconds="1000">
+			<setvalue index="0" value="0" change="0"></setvalue>
+			<!-- red value of L1 -->
+			<setvalue index="1" value="255" change="0"></setvalue>
+			<!-- green value of L1 -->
+			<setvalue index="2" value="0" change="0"></setvalue>
+			<!-- blue value of L1 -->
+			<setvalue index="3" value="255" change="0"></setvalue>
+			<!-- red value of L2 -->
+			<setvalue index="4" value="0" change="0"></setvalue>
+			<!-- green value of L2 -->
+			<setvalue index="5" value="0" change="0"></setvalue>
+			<!-- blue value of L2 -->
+		</timeblock>
+	</event>
+	<!-- ********************************************************************************************* -->
+	<event type="WITHIN_NEBULA" continuous="yes">
+		<!-- steady soft purple light -->
+		<timeblock mseconds="1000">
+			<setvalue index="0" value="150" change="0"></setvalue>
+			<!-- red value of L1 -->
+			<setvalue index="1" value="0" change="0"></setvalue>
+			<!-- green value of L1 -->
+			<setvalue index="2" value="150" change="0"></setvalue>
+			<!-- blue value of L1 -->
+			<setvalue index="3" value="50" change="0"></setvalue>
+			<!-- red value of L2 -->
+			<setvalue index="4" value="0" change="0"></setvalue>
+			<!-- green value of L2 -->
+			<setvalue index="5" value="0" change="0"></setvalue>
+			<!-- blue value of L2 -->
+		</timeblock>
+	</event>
+	<!-- ********************************************************************************************* -->
+	<event type="ENTERING_NEBULA">
+		<timeblock mseconds="3000">
+			<!-- Set 1 - Fade In Purple -->
+			<setvalue index="0" value="0" change="50"></setvalue>
+			<!-- red value of L1 -->
+			<setvalue index="1" value="0" change="0"></setvalue>
+			<!-- green value of L1 -->
+			<setvalue index="2" value="0" change="50"></setvalue>
+			<!-- blue value of L1 -->
+		</timeblock>
+	</event>
+	<!-- ********************************************************************************************* -->
+	<event type="ENTERING_NEBULA">
+		<!-- Set 2 - Fade in/out red -->
+		<timeblock mseconds="1500">
+			<setvalue index="3" value="0" change="100"></setvalue>
+			<!-- red value of L2 -->
+			<setvalue index="4" value="0" change="0"></setvalue>
+			<!-- green value of L2 -->
+			<setvalue index="5" value="0" change="0"></setvalue>
+			<!-- blue value of L2 -->
+		</timeblock>
+		<timeblock mseconds="1500">
+			<setvalue index="3" value="150" change="-100"></setvalue>
+			<!-- red value of L2 -->
+			<setvalue index="4" value="0" change="0"></setvalue>
+			<!-- green value of L2 -->
+			<setvalue index="5" value="0" change="0"></setvalue>
+			<!-- blue value of L2 -->
+		</timeblock>
+	</event>
+	<!-- ********************************************************************************************* -->
+	<event type="EXITING_NEBULA">
+		<!-- Set 1 - Fade out Purple -->
+		<timeblock mseconds="3000">
+			<setvalue index="0" value="150" change="-50"></setvalue>
+			<!-- red value of L1 -->
+			<setvalue index="1" value="0" change="0"></setvalue>
+			<!-- green value of L1 -->
+			<setvalue index="2" value="150" change="-50"></setvalue>
+			<!-- blue value of L1 -->
+		</timeblock>
+	</event>
+	<!-- ********************************************************************************************* -->
+	<event type="EXITING_NEBULA">
+		<!-- Set 2 - Fade in/out green -->
+		<timeblock mseconds="500">
+			<setvalue index="3" value="50" change="-100"></setvalue>
+			<!-- red value of L2 -->
+			<setvalue index="4" value="0" change="100"></setvalue>
+			<!-- green value of L2 -->
+			<setvalue index="5" value="0" change="0"></setvalue>
+			<!-- blue value of L2 -->
+		</timeblock>
+		<timeblock mseconds="1000">
+			<setvalue index="3" value="0" change="0"></setvalue>
+			<!-- red value of L2 -->
+			<setvalue index="4" value="0" change="150"></setvalue>
+			<!-- green value of L2 -->
+			<setvalue index="5" value="0" change="0"></setvalue>
+			<!-- blue value of L2 -->
+		</timeblock>
+		<timeblock mseconds="1000">
+			<setvalue index="3" value="0" change="0"></setvalue>
+			<!-- red value of L2 -->
+			<setvalue index="4" value="150" change="-150"></setvalue>
+			<!-- green value of L2 -->
+			<setvalue index="5" value="0" change="0"></setvalue>
+			<!-- blue value of L2 -->
+		</timeblock>
+	</event>
+	<!-- ********************************************************************************************* -->
+	<event type="PLAYER_SHIELDS_ON" continuous="yes">
+		<!-- steady blue light -->
+		<timeblock mseconds="1000">
+			<setvalue index="0" value="0" change="0"></setvalue>
+			<!-- red value of L1 -->
+			<setvalue index="1" value="0" change="0"></setvalue>
+			<!-- green value of L1 -->
+			<setvalue index="2" value="200" change="0"></setvalue>
+			<!-- blue value of L1 -->
+			<setvalue index="3" value="0" change="0"></setvalue>
+			<!-- red value of L2 -->
+			<setvalue index="4" value="0" change="0"></setvalue>
+			<!-- green value of L2 -->
+			<setvalue index="5" value="200" change="0"></setvalue>
+			<!-- blue value of L2 -->
+		</timeblock>
+	</event>
+	<!-- ********************************************************************************************* -->
+	<event type="PLAYER_SHIELDS_RAISED">
+		<!-- Fade In blue -->
+		<timeblock mseconds="1772">
+			<setvalue index="0" value="0" change="0"></setvalue>
+			<!-- red value of L1 -->
+			<setvalue index="1" value="0" change="0"></setvalue>
+			<!-- green value of L1 -->
+			<setvalue index="2" value="0" change="150"></setvalue>
+			<!-- blue value of L1 -->
+			<setvalue index="3" value="0" change="0"></setvalue>
+			<!-- red value of L2 -->
+			<setvalue index="4" value="0" change="0"></setvalue>
+			<!-- green value of L2 -->
+			<setvalue index="5" value="0" change="150"></setvalue>
+			<!-- blue value of L2 -->
+		</timeblock>
+	</event>
+	<!-- ********************************************************************************************* -->
+	<event type="PLAYER_SHIELDS_LOWERED">
+		<!-- Fade out Blue -->
+		<timeblock mseconds="1772">
+			<setvalue index="0" value="0" change="0"></setvalue>
+			<!-- red value of L1 -->
+			<setvalue index="1" value="0" change="0"></setvalue>
+			<!-- green value of L1 -->
+			<setvalue index="2" value="200" change="-150"></setvalue>
+			<!-- blue value of L1 -->
+			<setvalue index="3" value="0" change="0"></setvalue>
+			<!-- red value of L2 -->
+			<setvalue index="4" value="0" change="0"></setvalue>
+			<!-- green value of L2 -->
+			<setvalue index="5" value="200" change="-150"></setvalue>
+			<!-- blue value of L2 -->
+		</timeblock>
+	</event>
+	<!-- ********************************************************************************************* -->
+	<event type="FRONT_SHIELD_LOW">
+		<!-- flicker the light of the 1st set -->
+		<timeblock mseconds="60">
+			<setvalue index="0" value="0" change="0"></setvalue>
+			<!-- red value of L1 -->
+			<setvalue index="1" value="0" change="0"></setvalue>
+			<!-- green value of L1 -->
+			<setvalue index="2" value="0" change="0"></setvalue>
+			<!-- blue value of L1 -->
+		</timeblock>
+		<timeblock mseconds="600">
+			<setvalue index="0" value="0" change="0"></setvalue>
+			<!-- red value of L1 -->
+			<setvalue index="1" value="0" change="0"></setvalue>
+			<!-- green value of L1 -->
+			<setvalue index="2" value="100" change="0"></setvalue>
+			<!-- blue value of L1 -->
+		</timeblock>
+		<timeblock mseconds="81">
+			<setvalue index="0" value="0" change="0"></setvalue>
+			<!-- red value of L1 -->
+			<setvalue index="1" value="0" change="0"></setvalue>
+			<!-- green value of L1 -->
+			<setvalue index="2" value="0" change="0"></setvalue>
+			<!-- blue value of L1 -->
+		</timeblock>
+		<timeblock mseconds="450">
+			<setvalue index="0" value="0" change="0"></setvalue>
+			<!-- red value of L1 -->
+			<setvalue index="1" value="0" change="0"></setvalue>
+			<!-- green value of L1 -->
+			<setvalue index="2" value="50" change="0"></setvalue>
+			<!-- blue value of L1 -->
+		</timeblock>
+		<timeblock mseconds="81">
+			<setvalue index="0" value="0" change="0"></setvalue>
+			<!-- red value of L1 -->
+			<setvalue index="1" value="0" change="0"></setvalue>
+			<!-- green value of L1 -->
+			<setvalue index="2" value="0" change="0"></setvalue>
+			<!-- blue value of L1 -->
+		</timeblock>
+		<timeblock mseconds="4501">
+			<setvalue index="0" value="0" change="0"></setvalue>
+			<!-- red value of L1 -->
+			<setvalue index="1" value="0" change="0"></setvalue>
+			<!-- green value of L1 -->
+			<setvalue index="2" value="150" change="0"></setvalue>
+			<!-- blue value of L1 -->
+		</timeblock>
+	</event>
+	<!-- ********************************************************************************************* -->
+	<event type="REAR_SHIELD_LOW">
+		<!-- flicker the light of the 2nd set -->
+		<timeblock mseconds="60">
+			<setvalue index="3" value="0" change="0"></setvalue>
+			<!-- red value of L2 -->
+			<setvalue index="4" value="0" change="0"></setvalue>
+			<!-- green value of L2 -->
+			<setvalue index="5" value="0" change="0"></setvalue>
+			<!-- blue value of L2 -->
+		</timeblock>
+		<timeblock mseconds="600">
+			<setvalue index="3" value="0" change="0"></setvalue>
+			<!-- red value of L2 -->
+			<setvalue index="4" value="0" change="0"></setvalue>
+			<!-- green value of L2 -->
+			<setvalue index="5" value="100" change="0"></setvalue>
+			<!-- blue value of L2 -->
+		</timeblock>
+		<timeblock mseconds="81">
+			<setvalue index="3" value="0" change="0"></setvalue>
+			<!-- red value of L2 -->
+			<setvalue index="4" value="0" change="0"></setvalue>
+			<!-- green value of L2 -->
+			<setvalue index="5" value="0" change="0"></setvalue>
+			<!-- blue value of L2 -->
+		</timeblock>
+		<timeblock mseconds="450">
+			<setvalue index="3" value="0" change="0"></setvalue>
+			<!-- red value of L2 -->
+			<setvalue index="4" value="0" change="0"></setvalue>
+			<!-- green value of L2 -->
+			<setvalue index="5" value="50" change="0"></setvalue>
+			<!-- blue value of L2 -->
+		</timeblock>
+		<timeblock mseconds="81">
+			<setvalue index="3" value="0" change="0"></setvalue>
+			<!-- red value of L2 -->
+			<setvalue index="4" value="0" change="0"></setvalue>
+			<!-- green value of L2 -->
+			<setvalue index="5" value="0" change="0"></setvalue>
+			<!-- blue value of L2 -->
+		</timeblock>
+		<timeblock mseconds="4501">
+			<setvalue index="3" value="0" change="0"></setvalue>
+			<!-- red value of L2 -->
+			<setvalue index="4" value="0" change="0"></setvalue>
+			<!-- green value of L2 -->
+			<setvalue index="5" value="200" change="0"></setvalue>
+			<!-- blue value of L2 -->
+		</timeblock>
+	</event>
+	<!-- ********************************************************************************************* -->
+	<event type="TRACTORED_FOR_DOCKED" continuous="yes">
+		<!-- Two second fade in -->
+		<timeblock mseconds="2000">
+			<setvalue index="0" value="0" change="0"></setvalue>
+			<!-- red value of L1 -->
+			<setvalue index="1" value="0" change="75"></setvalue>
+			<!-- green value of L1 -->
+			<setvalue index="2" value="0" change="0"></setvalue>
+			<!-- blue value of L1 -->
+			<setvalue index="3" value="0" change="0"></setvalue>
+			<!-- red value of L2 -->
+			<setvalue index="4" value="0" change="75"></setvalue>
+			<!-- green value of L2 -->
+			<setvalue index="5" value="0" change="0"></setvalue>
+			<!-- blue value of L2 -->
+		</timeblock>
+		<timeblock mseconds="1000">
+			<setvalue index="0" value="0" change="0"></setvalue>
+			<!-- red value of L1 -->
+			<setvalue index="1" value="150" change="-150"></setvalue>
+			<!-- green value of L1 -->
+			<setvalue index="2" value="0" change="0"></setvalue>
+			<!-- blue value of L1 -->
+			<setvalue index="3" value="0" change="0"></setvalue>
+			<!-- red value of L2 -->
+			<setvalue index="4" value="150" change="-150"></setvalue>
+			<!-- green value of L2 -->
+			<setvalue index="5" value="0" change="0"></setvalue>
+			<!-- blue value of L2 -->
+		</timeblock>
+	</event>
+	<!-- ********************************************************************************************* -->
+	<event type="COMPLETELY_DOCKED" continuous="yes">
+		<!-- steady green light -->
+		<timeblock mseconds="1000">
+			<setvalue index="0" value="0" change="0"></setvalue>
+			<!-- red value of L1 -->
+			<setvalue index="1" value="200" change="0"></setvalue>
+			<!-- green value of L1 -->
+			<setvalue index="2" value="0" change="0"></setvalue>
+			<!-- blue value of L1 -->
+			<setvalue index="3" value="0" change="0"></setvalue>
+			<!-- red value of L2 -->
+			<setvalue index="4" value="200" change="0"></setvalue>
+			<!-- green value of L2 -->
+			<setvalue index="5" value="0" change="0"></setvalue>
+			<!-- blue value of L2 -->
+		</timeblock>
+	</event>
+	<!-- ********************************************************************************************* -->
+	<event type="HELM_IN_REVERSE" continuous="yes">
+		<!-- red / green blink 2nd set-->
+		<timeblock mseconds="1000">
+			<setvalue index="3" value="200" change="0"></setvalue>
+			<!-- red value of L2 -->
+			<setvalue index="4" value="0" change="0"></setvalue>
+			<!-- green value of L2 -->
+			<setvalue index="5" value="0" change="0"></setvalue>
+			<!-- blue value of L2 -->
+		</timeblock>
+		<timeblock mseconds="1000">
+			<setvalue index="3" value="0" change="0"></setvalue>
+			<!-- red value of L2 -->
+			<setvalue index="4" value="200" change="0"></setvalue>
+			<!-- green value of L2 -->
+			<setvalue index="5" value="0" change="0"></setvalue>
+			<!-- blue value of L2 -->
+		</timeblock>
+	</event>
+	<!-- ********************************************************************************************* -->
+	<event type="HELM_IN_REVERSE" continuous="yes">
+		<!--Engine in reverse mode-->
+		<timeblock mseconds="1000">
+			<setvalue index="6" value="3" change="0"></setvalue>
+			<!-- play reverse mode on Audio -->
+		</timeblock>
+	</event>
+	<!-- ********************************************************************************************* -->
+	<event type="RED_ALERT" continuous="yes">
+		<!-- Slow Strobing Red Light -->
+		<timeblock mseconds="2000">
+			<setvalue index="0" value="200" change="-100"></setvalue>
+			<!-- red value of L1 -->
+			<setvalue index="1" value="0" change="0"></setvalue>
+			<!-- green value of L1 -->
+			<setvalue index="2" value="0" change="0"></setvalue>
+			<!-- blue value of L1 -->
+			<setvalue index="3" value="200" change="-100"></setvalue>
+			<!-- red value of L2 -->
+			<setvalue index="4" value="0" change="0"></setvalue>
+			<!-- green value of L2 -->
+			<setvalue index="5" value="0" change="0"></setvalue>
+			<!-- blue value of L2 -->
+		</timeblock>
+		<timeblock mseconds="2000">
+			<setvalue index="0" value="0" change="100"></setvalue>
+			<!-- red value of L1 -->
+			<setvalue index="1" value="0" change="0"></setvalue>
+			<!-- green value of L1 -->
+			<setvalue index="2" value="0" change="0"></setvalue>
+			<!-- blue value of L1 -->
+			<setvalue index="3" value="0" change="100"></setvalue>
+			<!-- red value of L2 -->
+			<setvalue index="4" value="0" change="0"></setvalue>
+			<!-- green value of L2 -->
+			<setvalue index="5" value="0" change="0"></setvalue>
+			<!-- blue value of L2 -->
+		</timeblock>
+	</event>
+	<!-- ********************************************************************************************* -->
+	<event type="RED_ALERT">
+		<!-- Initial Fast Strobe Red Light -->
+		<timeblock mseconds="581">
+			<setvalue index="0" value="0" change="200"></setvalue>
+			<!-- red value of L1 -->
+			<setvalue index="1" value="0" change="0"></setvalue>
+			<!-- green value of L1 -->
+			<setvalue index="2" value="0" change="0"></setvalue>
+			<!-- blue value of L1 -->
+			<setvalue index="3" value="0" change="200"></setvalue>
+			<!-- red value of L2 -->
+			<setvalue index="4" value="0" change="0"></setvalue>
+			<!-- green value of L2 -->
+			<setvalue index="5" value="0" change="0"></setvalue>
+			<!-- blue value of L2 -->
+		</timeblock>
+		<timeblock mseconds="581">
+			<setvalue index="0" value="0" change="200"></setvalue>
+			<!-- red value of L1 -->
+			<setvalue index="1" value="0" change="0"></setvalue>
+			<!-- green value of L1 -->
+			<setvalue index="2" value="0" change="0"></setvalue>
+			<!-- blue value of L1 -->
+			<setvalue index="3" value="0" change="200"></setvalue>
+			<!-- red value of L2 -->
+			<setvalue index="4" value="0" change="0"></setvalue>
+			<!-- green value of L2 -->
+			<setvalue index="5" value="0" change="0"></setvalue>
+			<!-- blue value of L2 -->
+		</timeblock>
+		<timeblock mseconds="581">
+			<setvalue index="0" value="0" change="200"></setvalue>
+			<!-- red value of L1 -->
+			<setvalue index="1" value="0" change="0"></setvalue>
+			<!-- green value of L1 -->
+			<setvalue index="2" value="0" change="0"></setvalue>
+			<!-- blue value of L1 -->
+			<setvalue index="3" value="0" change="200"></setvalue>
+			<!-- red value of L2 -->
+			<setvalue index="4" value="0" change="0"></setvalue>
+			<!-- green value of L2 -->
+			<setvalue index="5" value="0" change="0"></setvalue>
+			<!-- blue value of L2 -->
+		</timeblock>
+		<timeblock mseconds="581">
+			<setvalue index="0" value="0" change="200"></setvalue>
+			<!-- red value of L1 -->
+			<setvalue index="1" value="0" change="0"></setvalue>
+			<!-- green value of L1 -->
+			<setvalue index="2" value="0" change="0"></setvalue>
+			<!-- blue value of L1 -->
+			<setvalue index="3" value="0" change="200"></setvalue>
+			<!-- red value of L2 -->
+			<setvalue index="4" value="0" change="0"></setvalue>
+			<!-- green value of L2 -->
+			<setvalue index="5" value="0" change="0"></setvalue>
+			<!-- blue value of L2 -->
+		</timeblock>
+	</event>
+	<!-- ********************************************************************************************* -->
+	<event type="JUMP_INITIATED">
+		<!-- Initial Fast Strobe blue Light -->
+		<timeblock mseconds="2000">
+			<setvalue index="0" value="0" change="0"></setvalue>
+			<!-- red value of L1 -->
+			<setvalue index="1" value="0" change="0"></setvalue>
+			<!-- green value of L1 -->
+			<setvalue index="2" value="0" change="200"></setvalue>
+			<!-- blue value of L1 -->
+			<setvalue index="3" value="0" change="0"></setvalue>
+			<!-- red value of L2 -->
+			<setvalue index="4" value="0" change="0"></setvalue>
+			<!-- green value of L2 -->
+			<setvalue index="5" value="0" change="200"></setvalue>
+			<!-- blue value of L2 -->
+		</timeblock>
+		<timeblock mseconds="2500">
+			<setvalue index="0" value="0" change="0"></setvalue>
+			<!-- red value of L1 -->
+			<setvalue index="1" value="0" change="0"></setvalue>
+			<!-- green value of L1 -->
+			<setvalue index="2" value="0" change="200"></setvalue>
+			<!-- blue value of L1 -->
+			<setvalue index="3" value="0" change="0"></setvalue>
+			<!-- red value of L2 -->
+			<setvalue index="4" value="0" change="0"></setvalue>
+			<!-- green value of L2 -->
+			<setvalue index="5" value="0" change="200"></setvalue>
+			<!-- blue value of L2 -->
+		</timeblock>
+		<timeblock mseconds="2000">
+			<setvalue index="0" value="0" change="0"></setvalue>
+			<!-- red value of L1 -->
+			<setvalue index="1" value="0" change="0"></setvalue>
+			<!-- green value of L1 -->
+			<setvalue index="2" value="0" change="200"></setvalue>
+			<!-- blue value of L1 -->
+			<setvalue index="3" value="0" change="0"></setvalue>
+			<!-- red value of L2 -->
+			<setvalue index="4" value="0" change="0"></setvalue>
+			<!-- green value of L2 -->
+			<setvalue index="5" value="0" change="200"></setvalue>
+			<!-- blue value of L2 -->
+		</timeblock>
+		<timeblock mseconds="1500">
+			<setvalue index="0" value="0" change="0"></setvalue>
+			<!-- red value of L1 -->
+			<setvalue index="1" value="0" change="0"></setvalue>
+			<!-- green value of L1 -->
+			<setvalue index="2" value="0" change="200"></setvalue>
+			<!-- blue value of L1 -->
+			<setvalue index="3" value="0" change="0"></setvalue>
+			<!-- red value of L2 -->
+			<setvalue index="4" value="0" change="0"></setvalue>
+			<!-- green value of L2 -->
+			<setvalue index="5" value="0" change="200"></setvalue>
+			<!-- blue value of L2 -->
+		</timeblock>
+		<timeblock mseconds="1000">
+			<setvalue index="0" value="0" change="0"></setvalue>
+			<!-- red value of L1 -->
+			<setvalue index="1" value="0" change="0"></setvalue>
+			<!-- green value of L1 -->
+			<setvalue index="2" value="0" change="200"></setvalue>
+			<!-- blue value of L1 -->
+			<setvalue index="3" value="0" change="0"></setvalue>
+			<!-- red value of L2 -->
+			<setvalue index="4" value="0" change="0"></setvalue>
+			<!-- green value of L2 -->
+			<setvalue index="5" value="0" change="200"></setvalue>
+			<!-- blue value of L2 -->
+		</timeblock>
+		<timeblock mseconds="500">
+			<setvalue index="0" value="0" change="0"></setvalue>
+			<!-- red value of L1 -->
+			<setvalue index="1" value="0" change="0"></setvalue>
+			<!-- green value of L1 -->
+			<setvalue index="2" value="0" change="200"></setvalue>
+			<!-- blue value of L1 -->
+			<setvalue index="3" value="0" change="0"></setvalue>
+			<!-- red value of L2 -->
+			<setvalue index="4" value="0" change="0"></setvalue>
+			<!-- green value of L2 -->
+			<setvalue index="5" value="0" change="200"></setvalue>
+			<!-- blue value of L2 -->
+		</timeblock>
+		<timeblock mseconds="250">
+			<setvalue index="0" value="0" change="0"></setvalue>
+			<!-- red value of L1 -->
+			<setvalue index="1" value="0" change="0"></setvalue>
+			<!-- green value of L1 -->
+			<setvalue index="2" value="0" change="200"></setvalue>
+			<!-- blue value of L1 -->
+			<setvalue index="3" value="0" change="0"></setvalue>
+			<!-- red value of L2 -->
+			<setvalue index="4" value="0" change="0"></setvalue>
+			<!-- green value of L2 -->
+			<setvalue index="5" value="0" change="200"></setvalue>
+			<!-- blue value of L2 -->
+		</timeblock>
+		<timeblock mseconds="125">
+			<setvalue index="0" value="0" change="0"></setvalue>
+			<!-- red value of L1 -->
+			<setvalue index="1" value="0" change="0"></setvalue>
+			<!-- green value of L1 -->
+			<setvalue index="2" value="0" change="200"></setvalue>
+			<!-- blue value of L1 -->
+			<setvalue index="3" value="0" change="0"></setvalue>
+			<!-- red value of L2 -->
+			<setvalue index="4" value="0" change="0"></setvalue>
+			<!-- green value of L2 -->
+			<setvalue index="5" value="0" change="200"></setvalue>
+			<!-- blue value of L2 -->
+		</timeblock>
+		<timeblock mseconds="75">
+			<setvalue index="0" value="0" change="0"></setvalue>
+			<!-- red value of L1 -->
+			<setvalue index="1" value="0" change="0"></setvalue>
+			<!-- green value of L1 -->
+			<setvalue index="2" value="0" change="200"></setvalue>
+			<!-- blue value of L1 -->
+			<setvalue index="3" value="0" change="0"></setvalue>
+			<!-- red value of L2 -->
+			<setvalue index="4" value="0" change="0"></setvalue>
+			<!-- green value of L2 -->
+			<setvalue index="5" value="0" change="200"></setvalue>
+			<!-- blue value of L2 -->
+		</timeblock>
+		<timeblock mseconds="50">
+			<setvalue index="0" value="255" change="0"></setvalue>
+			<!-- red value of L1 -->
+			<setvalue index="1" value="255" change="0"></setvalue>
+			<!-- green value of L1 -->
+			<setvalue index="2" value="255" change="0"></setvalue>
+			<!-- blue value of L1 -->
+			<setvalue index="3" value="0" change="0"></setvalue>
+			<!-- red value of L2 -->
+			<setvalue index="4" value="0" change="0"></setvalue>
+			<!-- green value of L2 -->
+			<setvalue index="5" value="0" change="0"></setvalue>
+			<!-- blue value of L2 -->
+		</timeblock>
+		<timeblock mseconds="5000">
+			<setvalue index="0" value="0" change="0"></setvalue>
+			<!-- red value of L1 -->
+			<setvalue index="1" value="0" change="0"></setvalue>
+			<!-- green value of L1 -->
+			<setvalue index="2" value="0" change="0"></setvalue>
+			<!-- blue value of L1 -->
+			<setvalue index="3" value="0" change="0"></setvalue>
+			<!-- red value of L2 -->
+			<setvalue index="4" value="0" change="0"></setvalue>
+			<!-- green value of L2 -->
+			<setvalue index="5" value="0" change="0"></setvalue>
+			<!-- blue value of L2 -->
+		</timeblock>
+		<timeblock mseconds="5000">
+			<setvalue index="0" value="0" change="50"></setvalue>
+			<!-- red value of L1 -->
+			<setvalue index="1" value="0" change="50"></setvalue>
+			<!-- green value of L1 -->
+			<setvalue index="2" value="0" change="50"></setvalue>
+			<!-- blue value of L1 -->
+			<setvalue index="3" value="0" change="50"></setvalue>
+			<!-- red value of L2 -->
+			<setvalue index="4" value="0" change="50"></setvalue>
+			<!-- green value of L2 -->
+			<setvalue index="5" value="50" change="0"></setvalue>
+			<!-- blue value of L2 -->
+		</timeblock>
+	</event>
+	<!-- ********************************************************************************************* -->
+	<event type="SHIP_DAMAGE_60" continuous="yes">
+		<!-- flicker the light of the first light box -->
+		<timeblock mseconds="60">
+			<setvalue index="0" value="0" change="0"></setvalue>
+			<!-- red value of L1 -->
+			<setvalue index="1" value="0" change="0"></setvalue>
+			<!-- green value of L1 -->
+			<setvalue index="2" value="0" change="0"></setvalue>
+			<!-- blue value of L1 -->
+		</timeblock>
+		<timeblock mseconds="733"></timeblock>
+		<timeblock mseconds="81">
+			<setvalue index="0" value="0" change="0"></setvalue>
+			<!-- red value of L1 -->
+			<setvalue index="1" value="0" change="0"></setvalue>
+			<!-- green value of L1 -->
+			<setvalue index="2" value="0" change="0"></setvalue>
+			<!-- blue value of L1 -->
+		</timeblock>
+		<timeblock mseconds="1450"></timeblock>
+		<timeblock mseconds="81">
+			<setvalue index="0" value="0" change="0"></setvalue>
+			<!-- red value of L1 -->
+			<setvalue index="1" value="0" change="0"></setvalue>
+			<!-- green value of L1 -->
+			<setvalue index="2" value="0" change="0"></setvalue>
+			<!-- blue value of L1 -->
+		</timeblock>
+		<timeblock mseconds="1001"></timeblock>
+	</event>
+	<!-- ********************************************************************************************* -->
+	<event type="SHIP_DAMAGE_40" continuous="yes">
+		<!-- flicker the light of the first light box -->
+		<timeblock mseconds="60">
+			<setvalue index="0" value="0" change="0"></setvalue>
+			<!-- red value of L1 -->
+			<setvalue index="1" value="0" change="0"></setvalue>
+			<!-- green value of L1 -->
+			<setvalue index="2" value="0" change="0"></setvalue>
+			<!-- blue value of L1 -->
+		</timeblock>
+		<timeblock mseconds="200"></timeblock>
+		<timeblock mseconds="81">
+			<setvalue index="0" value="0" change="0"></setvalue>
+			<!-- red value of L1 -->
+			<setvalue index="1" value="0" change="0"></setvalue>
+			<!-- green value of L1 -->
+			<setvalue index="2" value="0" change="0"></setvalue>
+			<!-- blue value of L1 -->
+		</timeblock>
+		<timeblock mseconds="550"></timeblock>
+		<timeblock mseconds="81">
+			<setvalue index="0" value="0" change="0"></setvalue>
+			<!-- red value of L1 -->
+			<setvalue index="1" value="0" change="0"></setvalue>
+			<!-- green value of L1 -->
+			<setvalue index="2" value="0" change="0"></setvalue>
+			<!-- blue value of L1 -->
+		</timeblock>
+		<timeblock mseconds="4501"></timeblock>
+	</event>
+	<!-- ********************************************************************************************* -->
+	<event type="SHIP_DAMAGE_20" continuous="yes">
+		<!-- flicker the light of the first light box -->
+		<timeblock mseconds="60">
+			<setvalue index="0" value="0" change="0"></setvalue>
+			<!-- red value of L1 -->
+			<setvalue index="1" value="0" change="0"></setvalue>
+			<!-- green value of L1 -->
+			<setvalue index="2" value="0" change="0"></setvalue>
+			<!-- blue value of L1 -->
+		</timeblock>
+		<timeblock mseconds="600"></timeblock>
+		<timeblock mseconds="81">
+			<setvalue index="0" value="0" change="0"></setvalue>
+			<!-- red value of L1 -->
+			<setvalue index="1" value="0" change="0"></setvalue>
+			<!-- green value of L1 -->
+			<setvalue index="2" value="0" change="0"></setvalue>
+			<!-- blue value of L1 -->
+		</timeblock>
+		<timeblock mseconds="450"></timeblock>
+		<timeblock mseconds="81">
+			<setvalue index="0" value="0" change="0"></setvalue>
+			<!-- red value of L1 -->
+			<setvalue index="1" value="0" change="0"></setvalue>
+			<!-- green value of L1 -->
+			<setvalue index="2" value="0" change="0"></setvalue>
+			<!-- blue value of L1 -->
+		</timeblock>
+		<timeblock mseconds="4501"></timeblock>
+	</event>
+	<!-- ********************************************************************************************* -->
+	<event type="NPC_BEAM_HITS_PLAYER">
+		<!-- flicker the light of the first light box -->
+		<timeblock mseconds="60">
+			<setvalue index="0" value="0" change="0"></setvalue>
+			<!-- red value of L1 -->
+			<setvalue index="1" value="0" change="0"></setvalue>
+			<!-- green value of L1 -->
+			<setvalue index="2" value="0" change="0"></setvalue>
+			<!-- blue value of L1 -->
+			<setvalue index="3" value="255" change="0"></setvalue>
+			<!-- red value of L2 -->
+			<setvalue index="4" value="0" change="0"></setvalue>
+			<!-- green value of L2 -->
+			<setvalue index="5" value="0" change="0"></setvalue>
+			<!-- blue value of L2 -->
+		</timeblock>
+		<timeblock mseconds="60">
+			<setvalue index="0" value="255" change="0"></setvalue>
+			<!-- red value of L1 -->
+			<setvalue index="1" value="200" change="0"></setvalue>
+			<!-- green value of L1 -->
+			<setvalue index="2" value="0" change="0"></setvalue>
+			<!-- blue value of L1 -->
+			<setvalue index="3" value="0" change="0"></setvalue>
+			<!-- red value of L2 -->
+			<setvalue index="4" value="0" change="0"></setvalue>
+			<!-- green value of L2 -->
+			<setvalue index="5" value="0" change="0"></setvalue>
+			<!-- blue value of L2 -->
+		</timeblock>
+		<timeblock mseconds="60">
+			<setvalue index="0" value="0" change="0"></setvalue>
+			<!-- red value of L1 -->
+			<setvalue index="1" value="0" change="0"></setvalue>
+			<!-- green value of L1 -->
+			<setvalue index="2" value="0" change="0"></setvalue>
+			<!-- blue value of L1 -->
+			<setvalue index="3" value="255" change="0"></setvalue>
+			<!-- red value of L2 -->
+			<setvalue index="4" value="0" change="0"></setvalue>
+			<!-- green value of L2 -->
+			<setvalue index="5" value="0" change="0"></setvalue>
+			<!-- blue value of L2 -->
+		</timeblock>
+		<timeblock mseconds="60">
+			<setvalue index="0" value="255" change="0"></setvalue>
+			<!-- red value of L1 -->
+			<setvalue index="1" value="200" change="0"></setvalue>
+			<!-- green value of L1 -->
+			<setvalue index="2" value="0" change="0"></setvalue>
+			<!-- blue value of L1 -->
+			<setvalue index="3" value="0" change="0"></setvalue>
+			<!-- red value of L2 -->
+			<setvalue index="4" value="0" change="0"></setvalue>
+			<!-- green value of L2 -->
+			<setvalue index="5" value="0" change="0"></setvalue>
+			<!-- blue value of L2 -->
+		</timeblock>
+		<timeblock mseconds="60">
+			<setvalue index="0" value="0" change="0"></setvalue>
+			<!-- red value of L1 -->
+			<setvalue index="1" value="0" change="0"></setvalue>
+			<!-- green value of L1 -->
+			<setvalue index="2" value="0" change="0"></setvalue>
+			<!-- blue value of L1 -->
+			<setvalue index="3" value="255" change="0"></setvalue>
+			<!-- red value of L2 -->
+			<setvalue index="4" value="0" change="0"></setvalue>
+			<!-- green value of L2 -->
+			<setvalue index="5" value="0" change="0"></setvalue>
+			<!-- blue value of L2 -->
+		</timeblock>
+		<timeblock mseconds="60">
+			<setvalue index="0" value="255" change="0"></setvalue>
+			<!-- red value of L1 -->
+			<setvalue index="1" value="200" change="0"></setvalue>
+			<!-- green value of L1 -->
+			<setvalue index="2" value="0" change="0"></setvalue>
+			<!-- blue value of L1 -->
+			<setvalue index="3" value="0" change="0"></setvalue>
+			<!-- red value of L2 -->
+			<setvalue index="4" value="0" change="0"></setvalue>
+			<!-- green value of L2 -->
+			<setvalue index="5" value="0" change="0"></setvalue>
+			<!-- blue value of L2 -->
+		</timeblock>
+		<timeblock mseconds="60">
+			<setvalue index="0" value="0" change="0"></setvalue>
+			<!-- red value of L1 -->
+			<setvalue index="1" value="0" change="0"></setvalue>
+			<!-- green value of L1 -->
+			<setvalue index="2" value="0" change="0"></setvalue>
+			<!-- blue value of L1 -->
+			<setvalue index="3" value="0" change="0"></setvalue>
+			<!-- red value of L2 -->
+			<setvalue index="4" value="0" change="0"></setvalue>
+			<!-- green value of L2 -->
+			<setvalue index="5" value="0" change="0"></setvalue>
+			<!-- blue value of L2 -->
+		</timeblock>
+	</event>
+	<!-- ********************************************************************************************* -->
+	<event type="PLAYER_BEAM_HITS_PLAYER">
+		<!-- flicker the light of the first light box -->
+		<timeblock mseconds="60">
+			<setvalue index="0" value="0" change="0"></setvalue>
+			<!-- red value of L1 -->
+			<setvalue index="1" value="0" change="0"></setvalue>
+			<!-- green value of L1 -->
+			<setvalue index="2" value="0" change="0"></setvalue>
+			<!-- blue value of L1 -->
+			<setvalue index="3" value="0" change="0"></setvalue>
+			<!-- red value of L2 -->
+			<setvalue index="4" value="0" change="0"></setvalue>
+			<!-- green value of L2 -->
+			<setvalue index="5" value="255" change="0"></setvalue>
+			<!-- blue value of L2 -->
+		</timeblock>
+		<timeblock mseconds="60">
+			<setvalue index="0" value="0" change="0"></setvalue>
+			<!-- red value of L1 -->
+			<setvalue index="1" value="200" change="0"></setvalue>
+			<!-- green value of L1 -->
+			<setvalue index="2" value="255" change="0"></setvalue>
+			<!-- blue value of L1 -->
+			<setvalue index="3" value="0" change="0"></setvalue>
+			<!-- red value of L2 -->
+			<setvalue index="4" value="0" change="0"></setvalue>
+			<!-- green value of L2 -->
+			<setvalue index="5" value="0" change="0"></setvalue>
+			<!-- blue value of L2 -->
+		</timeblock>
+		<timeblock mseconds="60">
+			<setvalue index="0" value="0" change="0"></setvalue>
+			<!-- red value of L1 -->
+			<setvalue index="1" value="0" change="0"></setvalue>
+			<!-- green value of L1 -->
+			<setvalue index="2" value="0" change="0"></setvalue>
+			<!-- blue value of L1 -->
+			<setvalue index="3" value="0" change="0"></setvalue>
+			<!-- red value of L2 -->
+			<setvalue index="4" value="0" change="0"></setvalue>
+			<!-- green value of L2 -->
+			<setvalue index="5" value="255" change="0"></setvalue>
+			<!-- blue value of L2 -->
+		</timeblock>
+		<timeblock mseconds="60">
+			<setvalue index="0" value="0" change="0"></setvalue>
+			<!-- red value of L1 -->
+			<setvalue index="1" value="200" change="0"></setvalue>
+			<!-- green value of L1 -->
+			<setvalue index="2" value="255" change="0"></setvalue>
+			<!-- blue value of L1 -->
+			<setvalue index="3" value="0" change="0"></setvalue>
+			<!-- red value of L2 -->
+			<setvalue index="4" value="0" change="0"></setvalue>
+			<!-- green value of L2 -->
+			<setvalue index="5" value="0" change="0"></setvalue>
+			<!-- blue value of L2 -->
+		</timeblock>
+		<timeblock mseconds="60">
+			<setvalue index="0" value="0" change="0"></setvalue>
+			<!-- red value of L1 -->
+			<setvalue index="1" value="0" change="0"></setvalue>
+			<!-- green value of L1 -->
+			<setvalue index="2" value="0" change="0"></setvalue>
+			<!-- blue value of L1 -->
+			<setvalue index="3" value="0" change="0"></setvalue>
+			<!-- red value of L2 -->
+			<setvalue index="4" value="0" change="0"></setvalue>
+			<!-- green value of L2 -->
+			<setvalue index="5" value="255" change="0"></setvalue>
+			<!-- blue value of L2 -->
+		</timeblock>
+		<timeblock mseconds="60">
+			<setvalue index="0" value="0" change="0"></setvalue>
+			<!-- red value of L1 -->
+			<setvalue index="1" value="200" change="0"></setvalue>
+			<!-- green value of L1 -->
+			<setvalue index="2" value="255" change="0"></setvalue>
+			<!-- blue value of L1 -->
+			<setvalue index="3" value="0" change="0"></setvalue>
+			<!-- red value of L2 -->
+			<setvalue index="4" value="0" change="0"></setvalue>
+			<!-- green value of L2 -->
+			<setvalue index="5" value="0" change="0"></setvalue>
+			<!-- blue value of L2 -->
+		</timeblock>
+		<timeblock mseconds="60">
+			<setvalue index="0" value="0" change="0"></setvalue>
+			<!-- red value of L1 -->
+			<setvalue index="1" value="0" change="0"></setvalue>
+			<!-- green value of L1 -->
+			<setvalue index="2" value="0" change="0"></setvalue>
+			<!-- blue value of L1 -->
+			<setvalue index="3" value="0" change="0"></setvalue>
+			<!-- red value of L2 -->
+			<setvalue index="4" value="0" change="0"></setvalue>
+			<!-- green value of L2 -->
+			<setvalue index="5" value="0" change="0"></setvalue>
+			<!-- blue value of L2 -->
+		</timeblock>
+	</event>
+	<!-- ********************************************************************************************* -->
+	<event type="TORPEDO_HITS_PLAYER">
+		<!-- flicker the light of the first light box -->
+		<timeblock mseconds="60">
+			<setvalue index="0" value="0" change="0"></setvalue>
+			<!-- red value of L1 -->
+			<setvalue index="1" value="0" change="0"></setvalue>
+			<!-- green value of L1 -->
+			<setvalue index="2" value="0" change="0"></setvalue>
+			<!-- blue value of L1 -->
+			<setvalue index="3" value="255" change="0"></setvalue>
+			<!-- red value of L2 -->
+			<setvalue index="4" value="0" change="0"></setvalue>
+			<!-- green value of L2 -->
+			<setvalue index="5" value="0" change="0"></setvalue>
+			<!-- blue value of L2 -->
+		</timeblock>
+		<timeblock mseconds="60">
+			<setvalue index="0" value="255" change="0"></setvalue>
+			<!-- red value of L1 -->
+			<setvalue index="1" value="50" change="0"></setvalue>
+			<!-- green value of L1 -->
+			<setvalue index="2" value="0" change="0"></setvalue>
+			<!-- blue value of L1 -->
+			<setvalue index="3" value="0" change="0"></setvalue>
+			<!-- red value of L2 -->
+			<setvalue index="4" value="0" change="0"></setvalue>
+			<!-- green value of L2 -->
+			<setvalue index="5" value="0" change="0"></setvalue>
+			<!-- blue value of L2 -->
+		</timeblock>
+		<timeblock mseconds="60">
+			<setvalue index="0" value="0" change="0"></setvalue>
+			<!-- red value of L1 -->
+			<setvalue index="1" value="0" change="0"></setvalue>
+			<!-- green value of L1 -->
+			<setvalue index="2" value="0" change="0"></setvalue>
+			<!-- blue value of L1 -->
+			<setvalue index="3" value="255" change="0"></setvalue>
+			<!-- red value of L2 -->
+			<setvalue index="4" value="0" change="0"></setvalue>
+			<!-- green value of L2 -->
+			<setvalue index="5" value="0" change="0"></setvalue>
+			<!-- blue value of L2 -->
+		</timeblock>
+		<timeblock mseconds="60">
+			<setvalue index="0" value="255" change="0"></setvalue>
+			<!-- red value of L1 -->
+			<setvalue index="1" value="50" change="0"></setvalue>
+			<!-- green value of L1 -->
+			<setvalue index="2" value="0" change="0"></setvalue>
+			<!-- blue value of L1 -->
+			<setvalue index="3" value="0" change="0"></setvalue>
+			<!-- red value of L2 -->
+			<setvalue index="4" value="0" change="0"></setvalue>
+			<!-- green value of L2 -->
+			<setvalue index="5" value="0" change="0"></setvalue>
+			<!-- blue value of L2 -->
+		</timeblock>
+		<timeblock mseconds="60">
+			<setvalue index="0" value="0" change="0"></setvalue>
+			<!-- red value of L1 -->
+			<setvalue index="1" value="0" change="0"></setvalue>
+			<!-- green value of L1 -->
+			<setvalue index="2" value="0" change="0"></setvalue>
+			<!-- blue value of L1 -->
+			<setvalue index="3" value="255" change="0"></setvalue>
+			<!-- red value of L2 -->
+			<setvalue index="4" value="0" change="0"></setvalue>
+			<!-- green value of L2 -->
+			<setvalue index="5" value="0" change="0"></setvalue>
+			<!-- blue value of L2 -->
+		</timeblock>
+		<timeblock mseconds="60">
+			<setvalue index="0" value="255" change="0"></setvalue>
+			<!-- red value of L1 -->
+			<setvalue index="1" value="50" change="0"></setvalue>
+			<!-- green value of L1 -->
+			<setvalue index="2" value="0" change="0"></setvalue>
+			<!-- blue value of L1 -->
+			<setvalue index="3" value="0" change="0"></setvalue>
+			<!-- red value of L2 -->
+			<setvalue index="4" value="0" change="0"></setvalue>
+			<!-- green value of L2 -->
+			<setvalue index="5" value="0" change="0"></setvalue>
+			<!-- blue value of L2 -->
+		</timeblock>
+		<timeblock mseconds="60">
+			<setvalue index="0" value="0" change="0"></setvalue>
+			<!-- red value of L1 -->
+			<setvalue index="1" value="0" change="0"></setvalue>
+			<!-- green value of L1 -->
+			<setvalue index="2" value="0" change="0"></setvalue>
+			<!-- blue value of L1 -->
+			<setvalue index="3" value="0" change="0"></setvalue>
+			<!-- red value of L2 -->
+			<setvalue index="4" value="0" change="0"></setvalue>
+			<!-- green value of L2 -->
+			<setvalue index="5" value="0" change="0"></setvalue>
+			<!-- blue value of L2 -->
+		</timeblock>
+	</event>
+	<!-- ********************************************************************************************* -->
+	<event type="MINE_HITS_PLAYER">
+		<!-- flicker the light of the first light box -->
+		<timeblock mseconds="60">
+			<setvalue index="0" value="255" change="0"></setvalue>
+			<!-- red value of L1 -->
+			<setvalue index="1" value="200" change="0"></setvalue>
+			<!-- green value of L1 -->
+			<setvalue index="2" value="0" change="0"></setvalue>
+			<!-- blue value of L1 -->
+			<setvalue index="3" value="255" change="0"></setvalue>
+			<!-- red value of L2 -->
+			<setvalue index="4" value="0" change="0"></setvalue>
+			<!-- green value of L2 -->
+			<setvalue index="5" value="0" change="0"></setvalue>
+			<!-- blue value of L2 -->
+		</timeblock>
+		<timeblock mseconds="60">
+			<setvalue index="0" value="255" change="0"></setvalue>
+			<!-- red value of L1 -->
+			<setvalue index="1" value="50" change="0"></setvalue>
+			<!-- green value of L1 -->
+			<setvalue index="2" value="0" change="0"></setvalue>
+			<!-- blue value of L1 -->
+			<setvalue index="3" value="255" change="0"></setvalue>
+			<!-- red value of L2 -->
+			<setvalue index="4" value="0" change="0"></setvalue>
+			<!-- green value of L2 -->
+			<setvalue index="5" value="0" change="0"></setvalue>
+			<!-- blue value of L2 -->
+		</timeblock>
+		<timeblock mseconds="60">
+			<setvalue index="0" value="255" change="0"></setvalue>
+			<!-- red value of L1 -->
+			<setvalue index="1" value="200" change="0"></setvalue>
+			<!-- green value of L1 -->
+			<setvalue index="2" value="0" change="0"></setvalue>
+			<!-- blue value of L1 -->
+			<setvalue index="3" value="255" change="0"></setvalue>
+			<!-- red value of L2 -->
+			<setvalue index="4" value="0" change="0"></setvalue>
+			<!-- green value of L2 -->
+			<setvalue index="5" value="0" change="0"></setvalue>
+			<!-- blue value of L2 -->
+		</timeblock>
+		<timeblock mseconds="60">
+			<setvalue index="0" value="255" change="0"></setvalue>
+			<!-- red value of L1 -->
+			<setvalue index="1" value="50" change="0"></setvalue>
+			<!-- green value of L1 -->
+			<setvalue index="2" value="0" change="0"></setvalue>
+			<!-- blue value of L1 -->
+			<setvalue index="3" value="255" change="0"></setvalue>
+			<!-- red value of L2 -->
+			<setvalue index="4" value="0" change="0"></setvalue>
+			<!-- green value of L2 -->
+			<setvalue index="5" value="0" change="0"></setvalue>
+			<!-- blue value of L2 -->
+		</timeblock>
+		<timeblock mseconds="60">
+			<setvalue index="0" value="255" change="0"></setvalue>
+			<!-- red value of L1 -->
+			<setvalue index="1" value="200" change="0"></setvalue>
+			<!-- green value of L1 -->
+			<setvalue index="2" value="0" change="0"></setvalue>
+			<!-- blue value of L1 -->
+			<setvalue index="3" value="255" change="0"></setvalue>
+			<!-- red value of L2 -->
+			<setvalue index="4" value="0" change="0"></setvalue>
+			<!-- green value of L2 -->
+			<setvalue index="5" value="0" change="0"></setvalue>
+			<!-- blue value of L2 -->
+		</timeblock>
+		<timeblock mseconds="60">
+			<setvalue index="0" value="255" change="0"></setvalue>
+			<!-- red value of L1 -->
+			<setvalue index="1" value="50" change="0"></setvalue>
+			<!-- green value of L1 -->
+			<setvalue index="2" value="0" change="0"></setvalue>
+			<!-- blue value of L1 -->
+			<setvalue index="3" value="255" change="0"></setvalue>
+			<!-- red value of L2 -->
+			<setvalue index="4" value="0" change="0"></setvalue>
+			<!-- green value of L2 -->
+			<setvalue index="5" value="0" change="0"></setvalue>
+			<!-- blue value of L2 -->
+		</timeblock>
+		<timeblock mseconds="60">
+			<setvalue index="0" value="0" change="0"></setvalue>
+			<!-- red value of L1 -->
+			<setvalue index="1" value="0" change="0"></setvalue>
+			<!-- green value of L1 -->
+			<setvalue index="2" value="0" change="0"></setvalue>
+			<!-- blue value of L1 -->
+			<setvalue index="3" value="0" change="0"></setvalue>
+			<!-- red value of L2 -->
+			<setvalue index="4" value="0" change="0"></setvalue>
+			<!-- green value of L2 -->
+			<setvalue index="5" value="0" change="0"></setvalue>
+			<!-- blue value of L2 -->
+		</timeblock>
+	</event>
+	<!-- ********************************************************************************************* -->
+	<event type="LIGHTNING_HITS_PLAYER">
+		<!-- flicker the light of the first light box -->
+		<timeblock mseconds="60">
+			<setvalue index="0" value="0" change="0"></setvalue>
+			<!-- red value of L1 -->
+			<setvalue index="1" value="0" change="0"></setvalue>
+			<!-- green value of L1 -->
+			<setvalue index="2" value="0" change="0"></setvalue>
+			<!-- blue value of L1 -->
+			<setvalue index="3" value="0" change="0"></setvalue>
+			<!-- red value of L2 -->
+			<setvalue index="4" value="0" change="0"></setvalue>
+			<!-- green value of L2 -->
+			<setvalue index="5" value="0" change="0"></setvalue>
+			<!-- blue value of L2 -->
+		</timeblock>
+		<timeblock mseconds="60">
+			<setvalue index="0" value="0" change="0"></setvalue>
+			<!-- red value of L1 -->
+			<setvalue index="1" value="0" change="0"></setvalue>
+			<!-- green value of L1 -->
+			<setvalue index="2" value="0" change="0"></setvalue>
+			<!-- blue value of L1 -->
+			<setvalue index="3" value="0" change="0"></setvalue>
+			<!-- red value of L2 -->
+			<setvalue index="4" value="0" change="0"></setvalue>
+			<!-- green value of L2 -->
+			<setvalue index="5" value="255" change="0"></setvalue>
+			<!-- blue value of L2 -->
+		</timeblock>
+		<timeblock mseconds="60">
+			<setvalue index="0" value="0" change="0"></setvalue>
+			<!-- red value of L1 -->
+			<setvalue index="1" value="0" change="0"></setvalue>
+			<!-- green value of L1 -->
+			<setvalue index="2" value="255" change="0"></setvalue>
+			<!-- blue value of L1 -->
+			<setvalue index="3" value="0" change="0"></setvalue>
+			<!-- red value of L2 -->
+			<setvalue index="4" value="0" change="0"></setvalue>
+			<!-- green value of L2 -->
+			<setvalue index="5" value="0" change="0"></setvalue>
+			<!-- blue value of L2 -->
+		</timeblock>
+		<timeblock mseconds="60">
+			<setvalue index="0" value="0" change="0"></setvalue>
+			<!-- red value of L1 -->
+			<setvalue index="1" value="0" change="0"></setvalue>
+			<!-- green value of L1 -->
+			<setvalue index="2" value="0" change="0"></setvalue>
+			<!-- blue value of L1 -->
+			<setvalue index="3" value="0" change="0"></setvalue>
+			<!-- red value of L2 -->
+			<setvalue index="4" value="0" change="0"></setvalue>
+			<!-- green value of L2 -->
+			<setvalue index="5" value="0" change="0"></setvalue>
+			<!-- blue value of L2 -->
+		</timeblock>
+		<timeblock mseconds="60">
+			<setvalue index="0" value="0" change="0"></setvalue>
+			<!-- red value of L1 -->
+			<setvalue index="1" value="0" change="0"></setvalue>
+			<!-- green value of L1 -->
+			<setvalue index="2" value="0" change="0"></setvalue>
+			<!-- blue value of L1 -->
+			<setvalue index="3" value="0" change="0"></setvalue>
+			<!-- red value of L2 -->
+			<setvalue index="4" value="0" change="0"></setvalue>
+			<!-- green value of L2 -->
+			<setvalue index="5" value="255" change="0"></setvalue>
+			<!-- blue value of L2 -->
+		</timeblock>
+		<timeblock mseconds="60">
+			<setvalue index="0" value="0" change="0"></setvalue>
+			<!-- red value of L1 -->
+			<setvalue index="1" value="0" change="0"></setvalue>
+			<!-- green value of L1 -->
+			<setvalue index="2" value="255" change="0"></setvalue>
+			<!-- blue value of L1 -->
+			<setvalue index="3" value="0" change="0"></setvalue>
+			<!-- red value of L2 -->
+			<setvalue index="4" value="0" change="0"></setvalue>
+			<!-- green value of L2 -->
+			<setvalue index="5" value="0" change="0"></setvalue>
+			<!-- blue value of L2 -->
+		</timeblock>
+		<timeblock mseconds="60">
+			<setvalue index="0" value="0" change="0"></setvalue>
+			<!-- red value of L1 -->
+			<setvalue index="1" value="0" change="0"></setvalue>
+			<!-- green value of L1 -->
+			<setvalue index="2" value="0" change="0"></setvalue>
+			<!-- blue value of L1 -->
+			<setvalue index="3" value="0" change="0"></setvalue>
+			<!-- red value of L2 -->
+			<setvalue index="4" value="0" change="0"></setvalue>
+			<!-- green value of L2 -->
+			<setvalue index="5" value="0" change="0"></setvalue>
+			<!-- blue value of L2 -->
+		</timeblock>
+	</event>
+	<!-- ********************************************************************************************* -->
+	<event type="COLLISION_HITS_PLAYER">
+		<!-- flicker the light of the first light box -->
+		<timeblock mseconds="60">
+			<setvalue index="0" value="0" change="0"></setvalue>
+			<!-- red value of L1 -->
+			<setvalue index="1" value="0" change="0"></setvalue>
+			<!-- green value of L1 -->
+			<setvalue index="2" value="0" change="0"></setvalue>
+			<!-- blue value of L1 -->
+			<setvalue index="3" value="255" change="0"></setvalue>
+			<!-- red value of L2 -->
+			<setvalue index="4" value="0" change="0"></setvalue>
+			<!-- green value of L2 -->
+			<setvalue index="5" value="0" change="0"></setvalue>
+			<!-- blue value of L2 -->
+		</timeblock>
+		<timeblock mseconds="60">
+			<setvalue index="0" value="235" change="0"></setvalue>
+			<!-- red value of L1 -->
+			<setvalue index="1" value="235" change="0"></setvalue>
+			<!-- green value of L1 -->
+			<setvalue index="2" value="0" change="0"></setvalue>
+			<!-- blue value of L1 -->
+			<setvalue index="3" value="0" change="0"></setvalue>
+			<!-- red value of L2 -->
+			<setvalue index="4" value="0" change="0"></setvalue>
+			<!-- green value of L2 -->
+			<setvalue index="5" value="0" change="0"></setvalue>
+			<!-- blue value of L2 -->
+		</timeblock>
+		<timeblock mseconds="60">
+			<setvalue index="0" value="0" change="0"></setvalue>
+			<!-- red value of L1 -->
+			<setvalue index="1" value="0" change="0"></setvalue>
+			<!-- green value of L1 -->
+			<setvalue index="2" value="0" change="0"></setvalue>
+			<!-- blue value of L1 -->
+			<setvalue index="3" value="215" change="0"></setvalue>
+			<!-- red value of L2 -->
+			<setvalue index="4" value="0" change="0"></setvalue>
+			<!-- green value of L2 -->
+			<setvalue index="5" value="0" change="0"></setvalue>
+			<!-- blue value of L2 -->
+		</timeblock>
+		<timeblock mseconds="60">
+			<setvalue index="0" value="195" change="0"></setvalue>
+			<!-- red value of L1 -->
+			<setvalue index="1" value="195" change="0"></setvalue>
+			<!-- green value of L1 -->
+			<setvalue index="2" value="0" change="0"></setvalue>
+			<!-- blue value of L1 -->
+			<setvalue index="3" value="0" change="0"></setvalue>
+			<!-- red value of L2 -->
+			<setvalue index="4" value="0" change="0"></setvalue>
+			<!-- green value of L2 -->
+			<setvalue index="5" value="0" change="0"></setvalue>
+			<!-- blue value of L2 -->
+		</timeblock>
+		<timeblock mseconds="60">
+			<setvalue index="0" value="0" change="0"></setvalue>
+			<!-- red value of L1 -->
+			<setvalue index="1" value="0" change="0"></setvalue>
+			<!-- green value of L1 -->
+			<setvalue index="2" value="0" change="0"></setvalue>
+			<!-- blue value of L1 -->
+			<setvalue index="3" value="175" change="0"></setvalue>
+			<!-- red value of L2 -->
+			<setvalue index="4" value="0" change="0"></setvalue>
+			<!-- green value of L2 -->
+			<setvalue index="5" value="0" change="0"></setvalue>
+			<!-- blue value of L2 -->
+		</timeblock>
+		<timeblock mseconds="60">
+			<setvalue index="0" value="155" change="0"></setvalue>
+			<!-- red value of L1 -->
+			<setvalue index="1" value="155" change="0"></setvalue>
+			<!-- green value of L1 -->
+			<setvalue index="2" value="0" change="0"></setvalue>
+			<!-- blue value of L1 -->
+			<setvalue index="3" value="0" change="0"></setvalue>
+			<!-- red value of L2 -->
+			<setvalue index="4" value="0" change="0"></setvalue>
+			<!-- green value of L2 -->
+			<setvalue index="5" value="0" change="0"></setvalue>
+			<!-- blue value of L2 -->
+		</timeblock>
+		<timeblock mseconds="60">
+			<setvalue index="0" value="0" change="0"></setvalue>
+			<!-- red value of L1 -->
+			<setvalue index="1" value="0" change="0"></setvalue>
+			<!-- green value of L1 -->
+			<setvalue index="2" value="0" change="0"></setvalue>
+			<!-- blue value of L1 -->
+			<setvalue index="3" value="0" change="0"></setvalue>
+			<!-- red value of L2 -->
+			<setvalue index="4" value="0" change="0"></setvalue>
+			<!-- green value of L2 -->
+			<setvalue index="5" value="0" change="0"></setvalue>
+			<!-- blue value of L2 -->
+		</timeblock>
+	</event>
+	<!-- ********************************************************************************************* -->
+	<event type="DRONE_HITS_PLAYER">
+		<!-- flicker the light of the first light box -->
+		<timeblock mseconds="60">
+			<setvalue index="0" value="0" change="0"></setvalue>
+			<!-- red value of L1 -->
+			<setvalue index="1" value="0" change="0"></setvalue>
+			<!-- green value of L1 -->
+			<setvalue index="2" value="0" change="0"></setvalue>
+			<!-- blue value of L1 -->
+			<setvalue index="3" value="255" change="0"></setvalue>
+			<!-- red value of L2 -->
+			<setvalue index="4" value="0" change="0"></setvalue>
+			<!-- green value of L2 -->
+			<setvalue index="5" value="0" change="0"></setvalue>
+			<!-- blue value of L2 -->
+		</timeblock>
+		<timeblock mseconds="60">
+			<setvalue index="0" value="245" change="0"></setvalue>
+			<!-- red value of L1 -->
+			<setvalue index="1" value="40" change="0"></setvalue>
+			<!-- green value of L1 -->
+			<setvalue index="2" value="0" change="0"></setvalue>
+			<!-- blue value of L1 -->
+			<setvalue index="3" value="0" change="0"></setvalue>
+			<!-- red value of L2 -->
+			<setvalue index="4" value="0" change="0"></setvalue>
+			<!-- green value of L2 -->
+			<setvalue index="5" value="0" change="0"></setvalue>
+			<!-- blue value of L2 -->
+		</timeblock>
+		<timeblock mseconds="60">
+			<setvalue index="0" value="0" change="0"></setvalue>
+			<!-- red value of L1 -->
+			<setvalue index="1" value="0" change="0"></setvalue>
+			<!-- green value of L1 -->
+			<setvalue index="2" value="0" change="0"></setvalue>
+			<!-- blue value of L1 -->
+			<setvalue index="3" value="235" change="0"></setvalue>
+			<!-- red value of L2 -->
+			<setvalue index="4" value="0" change="0"></setvalue>
+			<!-- green value of L2 -->
+			<setvalue index="5" value="0" change="0"></setvalue>
+			<!-- blue value of L2 -->
+		</timeblock>
+		<timeblock mseconds="60">
+			<setvalue index="0" value="225" change="0"></setvalue>
+			<!-- red value of L1 -->
+			<setvalue index="1" value="20" change="0"></setvalue>
+			<!-- green value of L1 -->
+			<setvalue index="2" value="0" change="0"></setvalue>
+			<!-- blue value of L1 -->
+			<setvalue index="3" value="0" change="0"></setvalue>
+			<!-- red value of L2 -->
+			<setvalue index="4" value="0" change="0"></setvalue>
+			<!-- green value of L2 -->
+			<setvalue index="5" value="0" change="0"></setvalue>
+			<!-- blue value of L2 -->
+		</timeblock>
+		<timeblock mseconds="60">
+			<setvalue index="0" value="0" change="0"></setvalue>
+			<!-- red value of L1 -->
+			<setvalue index="1" value="0" change="0"></setvalue>
+			<!-- green value of L1 -->
+			<setvalue index="2" value="0" change="0"></setvalue>
+			<!-- blue value of L1 -->
+			<setvalue index="3" value="215" change="0"></setvalue>
+			<!-- red value of L2 -->
+			<setvalue index="4" value="0" change="0"></setvalue>
+			<!-- green value of L2 -->
+			<setvalue index="5" value="0" change="0"></setvalue>
+			<!-- blue value of L2 -->
+		</timeblock>
+		<timeblock mseconds="60">
+			<setvalue index="0" value="205" change="0"></setvalue>
+			<!-- red value of L1 -->
+			<setvalue index="1" value="0" change="0"></setvalue>
+			<!-- green value of L1 -->
+			<setvalue index="2" value="0" change="0"></setvalue>
+			<!-- blue value of L1 -->
+			<setvalue index="3" value="0" change="0"></setvalue>
+			<!-- red value of L2 -->
+			<setvalue index="4" value="0" change="0"></setvalue>
+			<!-- green value of L2 -->
+			<setvalue index="5" value="0" change="0"></setvalue>
+			<!-- blue value of L2 -->
+		</timeblock>
+		<timeblock mseconds="60">
+			<setvalue index="0" value="0" change="0"></setvalue>
+			<!-- red value of L1 -->
+			<setvalue index="1" value="0" change="0"></setvalue>
+			<!-- green value of L1 -->
+			<setvalue index="2" value="0" change="0"></setvalue>
+			<!-- blue value of L1 -->
+			<setvalue index="3" value="0" change="0"></setvalue>
+			<!-- red value of L2 -->
+			<setvalue index="4" value="0" change="0"></setvalue>
+			<!-- green value of L2 -->
+			<setvalue index="5" value="0" change="0"></setvalue>
+			<!-- blue value of L2 -->
+		</timeblock>
+	</event>
+	<!-- ********************************************************************************************* -->
+	<event type="PLAYER_TAKES_FRONT_SHIELD_DAMAGE">
+		<!-- flicker the light of the first light box -->
+		<timeblock mseconds="60">
+			<setvalue index="0" value="0" change="0"></setvalue>
+			<!-- red value of L1 -->
+			<setvalue index="1" value="0" change="0"></setvalue>
+			<!-- green value of L1 -->
+			<setvalue index="2" value="0" change="0"></setvalue>
+			<!-- blue value of L1 -->
+			<setvalue index="3" value="0" change="0"></setvalue>
+			<!-- red value of L2 -->
+			<setvalue index="4" value="0" change="0"></setvalue>
+			<!-- green value of L2 -->
+			<setvalue index="5" value="200" change="0"></setvalue>
+			<!-- blue value of L2 -->
+		</timeblock>
+		<timeblock mseconds="60">
+			<setvalue index="0" value="0" change="0"></setvalue>
+			<!-- red value of L1 -->
+			<setvalue index="1" value="0" change="0"></setvalue>
+			<!-- green value of L1 -->
+			<setvalue index="2" value="255" change="0"></setvalue>
+			<!-- blue value of L1 -->
+			<setvalue index="3" value="0" change="0"></setvalue>
+			<!-- red value of L2 -->
+			<setvalue index="4" value="0" change="0"></setvalue>
+			<!-- green value of L2 -->
+			<setvalue index="5" value="200" change="0"></setvalue>
+			<!-- blue value of L2 -->
+		</timeblock>
+		<timeblock mseconds="60">
+			<setvalue index="0" value="0" change="0"></setvalue>
+			<!-- red value of L1 -->
+			<setvalue index="1" value="0" change="0"></setvalue>
+			<!-- green value of L1 -->
+			<setvalue index="2" value="0" change="0"></setvalue>
+			<!-- blue value of L1 -->
+			<setvalue index="3" value="0" change="0"></setvalue>
+			<!-- red value of L2 -->
+			<setvalue index="4" value="0" change="0"></setvalue>
+			<!-- green value of L2 -->
+			<setvalue index="5" value="200" change="0"></setvalue>
+			<!-- blue value of L2 -->
+		</timeblock>
+		<timeblock mseconds="60">
+			<setvalue index="0" value="0" change="0"></setvalue>
+			<!-- red value of L1 -->
+			<setvalue index="1" value="0" change="0"></setvalue>
+			<!-- green value of L1 -->
+			<setvalue index="2" value="255" change="0"></setvalue>
+			<!-- blue value of L1 -->
+			<setvalue index="3" value="0" change="0"></setvalue>
+			<!-- red value of L2 -->
+			<setvalue index="4" value="0" change="0"></setvalue>
+			<!-- green value of L2 -->
+			<setvalue index="5" value="200" change="0"></setvalue>
+			<!-- blue value of L2 -->
+		</timeblock>
+		<timeblock mseconds="60">
+			<setvalue index="0" value="0" change="0"></setvalue>
+			<!-- red value of L1 -->
+			<setvalue index="1" value="0" change="0"></setvalue>
+			<!-- green value of L1 -->
+			<setvalue index="2" value="0" change="0"></setvalue>
+			<!-- blue value of L1 -->
+			<setvalue index="3" value="0" change="0"></setvalue>
+			<!-- red value of L2 -->
+			<setvalue index="4" value="0" change="0"></setvalue>
+			<!-- green value of L2 -->
+			<setvalue index="5" value="200" change="0"></setvalue>
+			<!-- blue value of L2 -->
+		</timeblock>
+		<timeblock mseconds="60">
+			<setvalue index="0" value="0" change="0"></setvalue>
+			<!-- red value of L1 -->
+			<setvalue index="1" value="0" change="0"></setvalue>
+			<!-- green value of L1 -->
+			<setvalue index="2" value="255" change="0"></setvalue>
+			<!-- blue value of L1 -->
+			<setvalue index="3" value="0" change="0"></setvalue>
+			<!-- red value of L2 -->
+			<setvalue index="4" value="0" change="0"></setvalue>
+			<!-- green value of L2 -->
+			<setvalue index="5" value="200" change="0"></setvalue>
+			<!-- blue value of L2 -->
+		</timeblock>
+		<timeblock mseconds="60">
+			<setvalue index="0" value="0" change="0"></setvalue>
+			<!-- red value of L1 -->
+			<setvalue index="1" value="0" change="0"></setvalue>
+			<!-- green value of L1 -->
+			<setvalue index="2" value="0" change="0"></setvalue>
+			<!-- blue value of L1 -->
+			<setvalue index="3" value="0" change="0"></setvalue>
+			<!-- red value of L2 -->
+			<setvalue index="4" value="0" change="0"></setvalue>
+			<!-- green value of L2 -->
+			<setvalue index="5" value="200" change="0"></setvalue>
+			<!-- blue value of L2 -->
+		</timeblock>
+	</event>
+	<!-- ********************************************************************************************* -->
+	<event type="PLAYER_TAKES_REAR_SHIELD_DAMAGE">
+		<!-- flicker the light of the first light box -->
+		<timeblock mseconds="60">
+			<setvalue index="0" value="0" change="0"></setvalue>
+			<!-- red value of L1 -->
+			<setvalue index="1" value="0" change="0"></setvalue>
+			<!-- green value of L1 -->
+			<setvalue index="2" value="200" change="0"></setvalue>
+			<!-- blue value of L1 -->
+			<setvalue index="3" value="0" change="0"></setvalue>
+			<!-- red value of L2 -->
+			<setvalue index="4" value="0" change="0"></setvalue>
+			<!-- green value of L2 -->
+			<setvalue index="5" value="0" change="0"></setvalue>
+			<!-- blue value of L2 -->
+		</timeblock>
+		<timeblock mseconds="60">
+			<setvalue index="0" value="0" change="0"></setvalue>
+			<!-- red value of L1 -->
+			<setvalue index="1" value="0" change="0"></setvalue>
+			<!-- green value of L1 -->
+			<setvalue index="2" value="200" change="0"></setvalue>
+			<!-- blue value of L1 -->
+			<setvalue index="3" value="0" change="0"></setvalue>
+			<!-- red value of L2 -->
+			<setvalue index="4" value="0" change="0"></setvalue>
+			<!-- green value of L2 -->
+			<setvalue index="5" value="255" change="0"></setvalue>
+			<!-- blue value of L2 -->
+		</timeblock>
+		<timeblock mseconds="60">
+			<setvalue index="0" value="0" change="0"></setvalue>
+			<!-- red value of L1 -->
+			<setvalue index="1" value="0" change="0"></setvalue>
+			<!-- green value of L1 -->
+			<setvalue index="2" value="200" change="0"></setvalue>
+			<!-- blue value of L1 -->
+			<setvalue index="3" value="0" change="0"></setvalue>
+			<!-- red value of L2 -->
+			<setvalue index="4" value="0" change="0"></setvalue>
+			<!-- green value of L2 -->
+			<setvalue index="5" value="0" change="0"></setvalue>
+			<!-- blue value of L2 -->
+		</timeblock>
+		<timeblock mseconds="60">
+			<setvalue index="0" value="0" change="0"></setvalue>
+			<!-- red value of L1 -->
+			<setvalue index="1" value="0" change="0"></setvalue>
+			<!-- green value of L1 -->
+			<setvalue index="2" value="200" change="0"></setvalue>
+			<!-- blue value of L1 -->
+			<setvalue index="3" value="0" change="0"></setvalue>
+			<!-- red value of L2 -->
+			<setvalue index="4" value="0" change="0"></setvalue>
+			<!-- green value of L2 -->
+			<setvalue index="5" value="255" change="0"></setvalue>
+			<!-- blue value of L2 -->
+		</timeblock>
+		<timeblock mseconds="60">
+			<setvalue index="0" value="0" change="0"></setvalue>
+			<!-- red value of L1 -->
+			<setvalue index="1" value="0" change="0"></setvalue>
+			<!-- green value of L1 -->
+			<setvalue index="2" value="200" change="0"></setvalue>
+			<!-- blue value of L1 -->
+			<setvalue index="3" value="0" change="0"></setvalue>
+			<!-- red value of L2 -->
+			<setvalue index="4" value="0" change="0"></setvalue>
+			<!-- green value of L2 -->
+			<setvalue index="5" value="0" change="0"></setvalue>
+			<!-- blue value of L2 -->
+		</timeblock>
+		<timeblock mseconds="60">
+			<setvalue index="0" value="0" change="0"></setvalue>
+			<!-- red value of L1 -->
+			<setvalue index="1" value="0" change="0"></setvalue>
+			<!-- green value of L1 -->
+			<setvalue index="2" value="200" change="0"></setvalue>
+			<!-- blue value of L1 -->
+			<setvalue index="3" value="0" change="0"></setvalue>
+			<!-- red value of L2 -->
+			<setvalue index="4" value="0" change="0"></setvalue>
+			<!-- green value of L2 -->
+			<setvalue index="5" value="255" change="0"></setvalue>
+			<!-- blue value of L2 -->
+		</timeblock>
+		<timeblock mseconds="60">
+			<setvalue index="0" value="0" change="0"></setvalue>
+			<!-- red value of L1 -->
+			<setvalue index="1" value="0" change="0"></setvalue>
+			<!-- green value of L1 -->
+			<setvalue index="2" value="200" change="0"></setvalue>
+			<!-- blue value of L1 -->
+			<setvalue index="3" value="0" change="0"></setvalue>
+			<!-- red value of L2 -->
+			<setvalue index="4" value="0" change="0"></setvalue>
+			<!-- green value of L2 -->
+			<setvalue index="5" value="0" change="0"></setvalue>
+			<!-- blue value of L2 -->
+		</timeblock>
+	</event>
+	<!-- ********************************************************************************************* -->
+	<event type="ENERGY_LOW">
+		<!-- flicker the light of the first light box -->
+		<timeblock mseconds="500">
+			<setvalue index="0" value="255" change="0"></setvalue>
+			<!-- red value of L1 -->
+			<setvalue index="1" value="0" change="0"></setvalue>
+			<!-- green value of L1 -->
+			<setvalue index="2" value="0" change="0"></setvalue>
+			<!-- blue value of L1 -->
+			<setvalue index="3" value="0" change="0"></setvalue>
+			<!-- red value of L2 -->
+			<setvalue index="4" value="255" change="0"></setvalue>
+			<!-- green value of L2 -->
+			<setvalue index="5" value="0" change="0"></setvalue>
+			<!-- blue value of L2 -->
+		</timeblock>
+		<timeblock mseconds="500">
+			<setvalue index="0" value="0" change="0"></setvalue>
+			<!-- red value of L1 -->
+			<setvalue index="1" value="255" change="0"></setvalue>
+			<!-- green value of L1 -->
+			<setvalue index="2" value="0" change="0"></setvalue>
+			<!-- blue value of L1 -->
+			<setvalue index="3" value="255" change="0"></setvalue>
+			<!-- red value of L2 -->
+			<setvalue index="4" value="0" change="0"></setvalue>
+			<!-- green value of L2 -->
+			<setvalue index="5" value="0" change="0"></setvalue>
+			<!-- blue value of L2 -->
+		</timeblock>
+		<timeblock mseconds="500">
+			<setvalue index="0" value="255" change="0"></setvalue>
+			<!-- red value of L1 -->
+			<setvalue index="1" value="0" change="0"></setvalue>
+			<!-- green value of L1 -->
+			<setvalue index="2" value="0" change="0"></setvalue>
+			<!-- blue value of L1 -->
+			<setvalue index="3" value="0" change="0"></setvalue>
+			<!-- red value of L2 -->
+			<setvalue index="4" value="255" change="0"></setvalue>
+			<!-- green value of L2 -->
+			<setvalue index="5" value="0" change="0"></setvalue>
+			<!-- blue value of L2 -->
+		</timeblock>
+		<timeblock mseconds="500">
+			<setvalue index="0" value="0" change="0"></setvalue>
+			<!-- red value of L1 -->
+			<setvalue index="1" value="255" change="0"></setvalue>
+			<!-- green value of L1 -->
+			<setvalue index="2" value="0" change="0"></setvalue>
+			<!-- blue value of L1 -->
+			<setvalue index="3" value="255" change="0"></setvalue>
+			<!-- red value of L2 -->
+			<setvalue index="4" value="0" change="0"></setvalue>
+			<!-- green value of L2 -->
+			<setvalue index="5" value="0" change="0"></setvalue>
+			<!-- blue value of L2 -->
+		</timeblock>
+		<timeblock mseconds="500">
+			<setvalue index="0" value="255" change="0"></setvalue>
+			<!-- red value of L1 -->
+			<setvalue index="1" value="0" change="0"></setvalue>
+			<!-- green value of L1 -->
+			<setvalue index="2" value="0" change="0"></setvalue>
+			<!-- blue value of L1 -->
+			<setvalue index="3" value="0" change="0"></setvalue>
+			<!-- red value of L2 -->
+			<setvalue index="4" value="255" change="0"></setvalue>
+			<!-- green value of L2 -->
+			<setvalue index="5" value="0" change="0"></setvalue>
+			<!-- blue value of L2 -->
+		</timeblock>
+		<timeblock mseconds="500">
+			<setvalue index="0" value="0" change="0"></setvalue>
+			<!-- red value of L1 -->
+			<setvalue index="1" value="255" change="0"></setvalue>
+			<!-- green value of L1 -->
+			<setvalue index="2" value="0" change="0"></setvalue>
+			<!-- blue value of L1 -->
+			<setvalue index="3" value="255" change="0"></setvalue>
+			<!-- red value of L2 -->
+			<setvalue index="4" value="0" change="0"></setvalue>
+			<!-- green value of L2 -->
+			<setvalue index="5" value="0" change="0"></setvalue>
+			<!-- blue value of L2 -->
+		</timeblock>
+		<timeblock mseconds="500">
+			<setvalue index="0" value="255" change="0"></setvalue>
+			<!-- red value of L1 -->
+			<setvalue index="1" value="0" change="0"></setvalue>
+			<!-- green value of L1 -->
+			<setvalue index="2" value="0" change="0"></setvalue>
+			<!-- blue value of L1 -->
+			<setvalue index="3" value="0" change="0"></setvalue>
+			<!-- red value of L2 -->
+			<setvalue index="4" value="255" change="0"></setvalue>
+			<!-- green value of L2 -->
+			<setvalue index="5" value="0" change="0"></setvalue>
+			<!-- blue value of L2 -->
+		</timeblock>
+		<timeblock mseconds="500">
+			<setvalue index="0" value="0" change="0"></setvalue>
+			<!-- red value of L1 -->
+			<setvalue index="1" value="0" change="0"></setvalue>
+			<!-- green value of L1 -->
+			<setvalue index="2" value="0" change="0"></setvalue>
+			<!-- blue value of L1 -->
+			<setvalue index="3" value="0" change="0"></setvalue>
+			<!-- red value of L2 -->
+			<setvalue index="4" value="0" change="0"></setvalue>
+			<!-- green value of L2 -->
+			<setvalue index="5" value="0" change="0"></setvalue>
+			<!-- blue value of L2 -->
+		</timeblock>
+	</event>
+	<!-- ********************************************************************************************* -->
+	<event type="DAMCON_CASUALTY">
+		<!-- flicker the light of the second light box -->
+		<timeblock mseconds="420">
+			<!-- allow time for effects -->
+		</timeblock>
+		<timeblock mseconds="60">
+			<setvalue index="3" value="0" change="0"></setvalue>
+			<!-- red value of L2 -->
+			<setvalue index="4" value="0" change="0"></setvalue>
+			<!-- green value of L2 -->
+			<setvalue index="5" value="0" change="0"></setvalue>
+			<!-- blue value of L2 -->
+		</timeblock>
+		<timeblock mseconds="60">
+			<setvalue index="3" value="255" change="0"></setvalue>
+			<!-- red value of L2 -->
+			<setvalue index="4" value="0" change="0"></setvalue>
+			<!-- green value of L2 -->
+			<setvalue index="5" value="0" change="0"></setvalue>
+			<!-- blue value of L2 -->
+		</timeblock>
+		<timeblock mseconds="60">
+			<setvalue index="3" value="0" change="0"></setvalue>
+			<!-- red value of L2 -->
+			<setvalue index="4" value="0" change="0"></setvalue>
+			<!-- green value of L2 -->
+			<setvalue index="5" value="0" change="0"></setvalue>
+			<!-- blue value of L2 -->
+		</timeblock>
+		<timeblock mseconds="60">
+			<setvalue index="3" value="255" change="0"></setvalue>
+			<!-- red value of L2 -->
+			<setvalue index="4" value="0" change="0"></setvalue>
+			<!-- green value of L2 -->
+			<setvalue index="5" value="0" change="0"></setvalue>
+			<!-- blue value of L2 -->
+		</timeblock>
+		<timeblock mseconds="60">
+			<setvalue index="3" value="0" change="0"></setvalue>
+			<!-- red value of L2 -->
+			<setvalue index="4" value="0" change="0"></setvalue>
+			<!-- green value of L2 -->
+			<setvalue index="5" value="0" change="0"></setvalue>
+			<!-- blue value of L2 -->
+		</timeblock>
+		<timeblock mseconds="60">
+			<setvalue index="3" value="255" change="0"></setvalue>
+			<!-- red value of L2 -->
+			<setvalue index="4" value="0" change="0"></setvalue>
+			<!-- green value of L2 -->
+			<setvalue index="5" value="0" change="0"></setvalue>
+			<!-- blue value of L2 -->
+		</timeblock>
+		<timeblock mseconds="60">
+			<setvalue index="3" value="0" change="0"></setvalue>
+			<!-- red value of L2 -->
+			<setvalue index="4" value="0" change="0"></setvalue>
+			<!-- green value of L2 -->
+			<setvalue index="5" value="0" change="0"></setvalue>
+			<!-- blue value of L2 -->
+		</timeblock>
+	</event>
+	<!-- ********************************************************************************************* -->
+	<event type="GAME_OVER">
+		<!-- steady soft white light -->
+		<timeblock mseconds="1000">
+			<setvalue index="0" value="0" change="0"></setvalue>
+			<!-- red value of L1 -->
+			<setvalue index="1" value="100" change="0"></setvalue>
+			<!-- green value of L1 -->
+			<setvalue index="2" value="0" change="0"></setvalue>
+			<!-- blue value of L1 -->
+			<setvalue index="3" value="0" change="0"></setvalue>
+			<!-- red value of L2 -->
+			<setvalue index="4" value="100" change="0"></setvalue>
+			<!-- green value of L2 -->
+			<setvalue index="5" value="0" change="0"></setvalue>
+			<!-- blue value of L2 -->
+		</timeblock>
+	</event>
+	<!-- ********************************************************************************************* -->
+	<event type="PLAYER_DESTROYED">
+		<!-- steady soft white light -->
+		<timeblock mseconds="1000">
+			<setvalue index="0" value="100" change="0"></setvalue>
+			<!-- red value of L1 -->
+			<setvalue index="1" value="0" change="0"></setvalue>
+			<!-- green value of L1 -->
+			<setvalue index="2" value="0" change="0"></setvalue>
+			<!-- blue value of L1 -->
+			<setvalue index="3" value="100" change="0"></setvalue>
+			<!-- red value of L2 -->
+			<setvalue index="4" value="0" change="0"></setvalue>
+			<!-- green value of L2 -->
+			<setvalue index="5" value="0" change="0"></setvalue>
+			<!-- blue value of L2 -->
+		</timeblock>
+	</event>
+</DMX_CONTROL>
